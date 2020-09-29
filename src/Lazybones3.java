@@ -1,7 +1,7 @@
 public class Lazybones3 {
     private  static volatile Lazybones3 instance;
     private Lazybones3(){}
-
+    // 这是新加的备注
     //    提供一个静态的公有方法，加入双重检查代码，解决线程安全问题，同时解决懒加载问题，并保证了效率
     public static Lazybones3 getInstance(){
 
